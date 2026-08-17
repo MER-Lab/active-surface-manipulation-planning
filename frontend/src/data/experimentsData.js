@@ -33,7 +33,7 @@ export const simulationExperiments = [
 ]
 
 export const opensourceHighlights = [
-  { key: 'opensource-1', src: video('opensource/Step1.mp4') },
-  { key: 'opensource-2', src: video('opensource/Step2.mp4') },
-  { key: 'opensource-3', src: video('opensource/Step3.mp4') },
+  { key: 'opensource-1', title: '1. Generate the planning scene', src: video('opensource/Step1.mp4') },
+  { key: 'opensource-2', title: '2. Define start and goal case', src: video('opensource/Step2.mp4') },
+  { key: 'opensource-3', title: '3. Simulate the trajectory', src: video('opensource/Step3.mp4') },
 ]

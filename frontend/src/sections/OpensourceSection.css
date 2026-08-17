@@ -20,6 +20,10 @@
   margin: var(--space-5) 0 var(--space-3);
 }
 
+.opensource-section .pub-links {
+  margin-top: var(--space-4);
+}
+
 @media (max-width: 768px) {
   .triptych-grid {
     grid-template-columns: 1fr;

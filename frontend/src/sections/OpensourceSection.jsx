@@ -1,5 +1,7 @@
 import VideoPlaceholder from '../components/VideoPlaceholder'
+import PublicationLinks from '../components/PublicationLinks'
 import { opensourceHighlights } from '../data/experimentsData'
+import { paperInfo } from '../data/paperInfo'
 import './OpensourceSection.css'
 
 function VideoTriptych({ items }) {
@@ -8,6 +10,7 @@ function VideoTriptych({ items }) {
       {items.map((item) => (
         <div className="triptych-item" key={item.key}>
           <VideoPlaceholder aspectRatio="4 / 3" label="Video coming soon" src={item.src} />
+          {item.title ? <h3 className="triptych-title">{item.title}</h3> : null}
         </div>
       ))}
     </div>
@@ -20,6 +23,9 @@ function OpensourceSection() {
       <div className="container">
         <h2 className="section-heading">Opensource Contribution</h2>
         <VideoTriptych items={opensourceHighlights} />
+        <PublicationLinks
+          links={paperInfo.links.filter((link) => link.label === 'Code')}
+        />
       </div>
     </section>
   )
