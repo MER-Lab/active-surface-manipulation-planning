@@ -1,0 +1,65 @@
+.experiment-layout {
+  display: flex;
+  gap: var(--space-4);
+  align-items: stretch;
+}
+
+.experiment-layout--video-right {
+  flex-direction: row-reverse;
+}
+
+.experiment-video {
+  flex: 2 1 0;
+  min-width: 0;
+}
+
+.experiment-buttons {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  justify-content: center;
+}
+
+.experiment-button {
+  text-align: left;
+  padding: 12px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: #ffffff;
+  color: var(--color-heading);
+  font-family: var(--font-body);
+  font-size: 15px;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.experiment-button:hover {
+  border-color: var(--color-button-bg);
+}
+
+.experiment-button.is-active {
+  background: var(--color-button-bg);
+  border-color: var(--color-button-bg);
+  color: var(--color-button-text);
+}
+
+@media (max-width: 768px) {
+  .experiment-layout,
+  .experiment-layout--video-right {
+    flex-direction: column;
+  }
+
+  .experiment-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .experiment-button {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}

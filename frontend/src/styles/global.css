@@ -1,0 +1,113 @@
+/* Design tokens + reset + base typography for the academic project page. */
+
+:root {
+  --max-width: 1152px;
+
+  --color-bg: #ffffff;
+  --color-text: #4a4a4a;
+  --color-heading: #222222;
+  --color-muted: #7a7a7a;
+  --color-border: #e8e8e8;
+  --color-link: #3273dc;
+
+  --color-button-bg: #2b2b2b;
+  --color-button-text: #ffffff;
+  --color-button-disabled-bg: #eaeaea;
+  --color-button-disabled-text: #a3a3a3;
+
+  --radius-pill: 9999px;
+  --radius-sm: 6px;
+
+  --font-heading: 'Castoro', Georgia, 'Times New Roman', serif;
+  --font-body: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+.section {
+  padding: var(--space-5) 0;
+}
+
+.section + .section {
+  border-top: 1px solid var(--color-border);
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: var(--space-3);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: var(--space-4) 0;
+  }
+
+  .container {
+    padding: 0 var(--space-2);
+  }
+}

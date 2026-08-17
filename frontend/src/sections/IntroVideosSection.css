@@ -1,0 +1,22 @@
+.intro-videos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.intro-video-item {
+  text-align: center;
+}
+
+.intro-video-title {
+  margin-top: var(--space-2);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .intro-videos-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+}

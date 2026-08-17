@@ -1,0 +1,6 @@
+.abstract-text {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: justify;
+  color: var(--color-text);
+}

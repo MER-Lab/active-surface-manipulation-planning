@@ -1,0 +1,36 @@
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.pub-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  background: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.pub-button:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.pub-button--disabled {
+  background: var(--color-button-disabled-bg);
+  color: var(--color-button-disabled-text);
+  cursor: not-allowed;
+}
+
+.pub-button--disabled:hover {
+  opacity: 1;
+}
