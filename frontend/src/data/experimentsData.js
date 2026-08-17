@@ -37,9 +37,3 @@ export const opensourceHighlights = [
   { key: 'opensource-2', src: video('opensource/Step2.mp4') },
   { key: 'opensource-3', src: video('opensource/Step3.mp4') },
 ]
-
-export const generalizedPlannerHighlights = [
-  { key: 'planner-demo-1', title: 'Demo 1', src: video('opensource/planner_demo1.mp4') },
-  { key: 'planner-demo-2', title: 'Demo 2', src: video('opensource/planner_demo2.mp4') },
-  { key: 'planner-demo-3', title: 'Demo 3', src: video('opensource/planner_demo3.mp4') },
-]
