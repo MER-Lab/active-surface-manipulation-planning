@@ -28,7 +28,7 @@ export const paperInfo = {
   teaserCaption: 'Active surface grippers expands manipulation workspace through continuous sliding or translation along the finger surface. But continuous search quickly becomes combinatorially complex. Contact topology manifolds provides the discrete structure that makes this search tractable.',
 
   // TODO: replace with real caption text once available.
-  planningFormulationCaption: 'Caption placeholder — describe the planning formulation here.',
+  planningFormulationCaption: 'We plan in a combined finger–object state space, treating the object pose and its location along the finger as a single coordinate. This is not merely an alternative parameterization — it is the natural representation for active-surface grippers, where the two are inseparably coupled.',
 
   abstract:
     'Abstract placeholder — the final abstract text has not been added to the repository yet.',

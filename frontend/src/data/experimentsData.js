@@ -25,15 +25,17 @@ export const physicalExperiments = [
 ]
 
 export const simulationExperiments = [
-  { key: 'sim-exp-1', label: 'Experiment 1', src: video('experiments/sim_exp1.mp4') },
-  { key: 'sim-exp-2', label: 'Experiment 2', src: video('experiments/sim_exp2.mp4') },
-  { key: 'sim-exp-3', label: 'Experiment 3', src: video('experiments/sim_exp3.mp4') },
+  { key: 'sim-exp-1', label: 'T-shape', src: video('experiments/T1_BOP.mp4') },
+  { key: 'sim-exp-2', label: 'Screwdriver', src: video('experiments/Screwdriver.mp4') },
+  { key: 'sim-exp-3', label: 'Pentagon', src: video('experiments/Pentagon_BOP.mp4') },
+  { key: 'sim-exp-3', label: 'Benchmark 1', src: video('experiments/Benchmark1.mp4') },
+  { key: 'sim-exp-3', label: 'Benchmark 2', src: video('experiments/Benchmark2.mp4') },
 ]
 
 export const opensourceHighlights = [
-  { key: 'opensource-1', src: video('opensource/opensource_1.mp4') },
-  { key: 'opensource-2', src: video('opensource/opensource_2.mp4') },
-  { key: 'opensource-3', src: video('opensource/opensource_3.mp4') },
+  { key: 'opensource-1', src: video('opensource/Step1.mp4') },
+  { key: 'opensource-2', src: video('opensource/Step2.mp4') },
+  { key: 'opensource-3', src: video('opensource/Step3.mp4') },
 ]
 
 export const generalizedPlannerHighlights = [
