@@ -21,8 +21,8 @@ export const paperInfo = {
   // renders as a disabled button rather than a fabricated link.
   links: [
     { label: 'Paper', href: null },
-    { label: 'Video', href: null },
-    { label: 'Code', href: 'https://github.com/shambhurajmane/PlannerWebsite' },
+    { label: 'Video', href: 'https://youtu.be/NZAVUq0EoiQ' },
+    { label: 'Code', href: 'https://github.com/shambhurajmane/ActiveSurfaceGrippersPlanning.git' },
   ],
 
   teaserCaption: 'Active surface grippers expands manipulation workspace through continuous sliding or translation along the finger surface. But continuous search quickly becomes combinatorially complex. Contact topology manifolds provides the discrete structure that makes this search tractable.',
