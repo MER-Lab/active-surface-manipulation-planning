@@ -1,5 +1,6 @@
 import PublicationHeader from './components/PublicationHeader'
 import ExperimentVideoSelector from './components/ExperimentVideoSelector'
+import Footer from './components/Footer'
 import TeaserSection from './sections/TeaserSection'
 import AbstractSection from './sections/AbstractSection'
 import IntroVideosSection from './sections/IntroVideosSection'
@@ -30,6 +31,7 @@ function App() {
         videoSide="right"
       />
       <OpensourceSection />
+      <Footer />
     </main>
   )
 }
