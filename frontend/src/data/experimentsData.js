@@ -25,11 +25,12 @@ export const physicalExperiments = [
 ]
 
 export const simulationExperiments = [
-  { key: 'sim-exp-1', label: 'T-shape', src: video('experiments/T1_BOP.mp4') },
-  { key: 'sim-exp-2', label: 'Screwdriver', src: video('experiments/Screwdriver.mp4') },
-  { key: 'sim-exp-3', label: 'Pentagon', src: video('experiments/Pentagon_BOP.mp4') },
   { key: 'sim-exp-3', label: 'Benchmark 1', src: video('experiments/Benchmark1.mp4') },
   { key: 'sim-exp-3', label: 'Benchmark 2', src: video('experiments/Benchmark2.mp4') },
+  { key: 'sim-exp-1', label: 'Cylinder', src: video('experiments/Cylinder.mp4') },
+  { key: 'sim-exp-2', label: 'Cylinder', src: video('experiments/IndentedCylinder.mp4') },
+  { key: 'sim-exp-3', label: 'Hexagon', src: video('experiments/Hexagon.mp4') },
+  { key: 'sim-exp-3', label: 'T-shape', src: video('experiments/T.mp4') },
 ]
 
 export const opensourceHighlights = [
