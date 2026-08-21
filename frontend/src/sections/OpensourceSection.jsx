@@ -11,6 +11,9 @@ function VideoTriptych({ items }) {
         <div className="triptych-item" key={item.key}>
           <VideoPlaceholder aspectRatio="4 / 3" label="Video coming soon" src={item.src} />
           {item.title ? <h3 className="triptych-title">{item.title}</h3> : null}
+          <PublicationLinks
+            links={[{ label: 'Watch full walkthrough', href: item.walkthroughHref }]}
+          />
         </div>
       ))}
     </div>

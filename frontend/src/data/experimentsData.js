@@ -33,8 +33,25 @@ export const simulationExperiments = [
   { key: 'sim-exp-3', label: 'T-shape', src: video('experiments/T.mp4') },
 ]
 
+// `walkthroughHref` links to a full setup video for that stage — leave null
+// until the corresponding YouTube link is ready; the button renders disabled.
 export const opensourceHighlights = [
-  { key: 'opensource-1', title: '1. Generate the planning scene', src: video('opensource/Step1.mp4') },
-  { key: 'opensource-2', title: '2. Define start and goal case', src: video('opensource/Step2.mp4') },
-  { key: 'opensource-3', title: '3. Simulate the trajectory', src: video('opensource/Step3.mp4') },
+  {
+    key: 'opensource-1',
+    title: '1. Generate the planning scene',
+    src: video('opensource/Step1.mp4'),
+    walkthroughHref: 'https://youtu.be/EA9iZUiq18k',
+  },
+  {
+    key: 'opensource-2',
+    title: '2. Define start and goal case',
+    src: video('opensource/Step2.mp4'),
+    walkthroughHref: 'https://youtu.be/wcJyjJnvxrs',
+  },
+  {
+    key: 'opensource-3',
+    title: '3.  Plan and simulate the trajectory.',
+    src: video('opensource/Step3.mp4'),
+    walkthroughHref: 'https://youtu.be/E4ENN63-tQo',
+  },
 ]
